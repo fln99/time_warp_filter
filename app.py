@@ -5,8 +5,6 @@ import os
 blank = np.zeros((480, 640, 3), dtype="uint8")
 capture = cv.VideoCapture(0)
 
-print(np.__version__)
-
 i = 0
 
 while True:
